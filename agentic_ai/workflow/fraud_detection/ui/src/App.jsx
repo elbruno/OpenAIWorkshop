@@ -51,7 +51,7 @@ function App() {
   const [executorStates, setExecutorStates] = useState({});
 
   // WebSocket hook for real-time updates
-  const { lastMessage, sendMessage } = useWebSocket('ws://localhost:8001/ws');
+  const { lastMessage, sendMessage } = useWebSocket('ws://127.0.0.1:3000/ws');
 
   // Load sample alerts on mount
   useEffect(() => {
