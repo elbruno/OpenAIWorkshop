@@ -12,6 +12,11 @@
 	"ghcr.io/devcontainers/features/node:1": {
 		"nodeGypDependencies": true,
 		"version": "lts"
+	},
+	"ghcr.io/devcontainers/features/dotnet:2": {
+		"version": "10.0",
+		"dotnetRuntimeVersions": "10.0",
+		"aspNetCoreRuntimeVersions": "10.0"
 	}
   },
 
