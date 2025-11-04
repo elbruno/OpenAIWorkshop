@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Sdk Name="Aspire.AppHost.Sdk" Version="13.1.0-preview.1.25552.3" />
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UserSecretsId>9c97cee3-457b-4a0f-9619-9ed154e25dc4</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.AppHost" Version="13.1.0-preview.1.25552.3" />
+		<PackageReference Include="Aspire.Hosting.NodeJs" Version="13.1.0-preview.1.25552.3" />
+		<PackageReference Include="Aspire.Hosting.Python" Version="13.1.0-preview.1.25552.3" />
+		<PackageReference Include="dotenv.net" Version="4.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update=".env">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+</Project>
