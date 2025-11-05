@@ -28,7 +28,8 @@
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"ms-azuretools.vscode-azurefunctions",
-				"ms-python.python"
+				"ms-python.python",
+				"ms-dotnettools.csdevkit"
 			]
 		}
 	},
